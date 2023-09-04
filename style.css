@@ -14,71 +14,67 @@ ul {
     padding: 0;
     display: flex;
     gap: 15px;
+    align-items: center;
 }
 
 a {
     text-decoration: none;
-    color: #E5E7EB;
+    color: #ffffff;
 }
 
 .header, .hero-container, .footer {
-    background-color: #1F2937;
-    
+    background-color: #1F222B;
+    display: flex;
 }
 
 .header {
-    display: flex;
     justify-content: space-between;
     padding: 20px 150px;
 }
 
 .logo {
-    font-size: 24px;
-    color: #F9FAF8;
+    width: 100px;
 }
 
 .hero-container {
-    display: flex;
     padding: 100px 150px;
     gap: 50px;
 }
 
 .hero-text {
     flex: 1;
-    
 }
 
 .hero-main {
     font-size: 48px;
     font-weight: 900;
-    color: #F9FAF8;
+    color: #ffffff;
 }
 
 .hero-second {
     font-size: 18px;
     color: #E5E7EB;
     margin-bottom: 10px;
+    margin-top: 10px;
 }
 
 .hero-img {
-    background-color: #6a6f75;
-    color: #E5E7EB;
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 16px;
+    width: 300px;
     flex: 1;
 }
 
-.sign-up {
-    background-color: #3882F6;
-    color: white;
+.donate {
+    background-color: #ff7b00;
+    color: #ffffff;
     border: none;
     border-radius: 4px;
     padding: 5px 25px;
 }
 
-.info {
+.members {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -86,37 +82,32 @@ a {
     gap: 50px;
 }
 
-.info-header {
+.member-header {
     font-size: 36px;
     font-weight: 900;
     color: #1F2937
 }
 
-.info-img-container {
+.member-container {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     gap: 50px;
 }
 
-.img-info {
+.member-info {
     flex: display;
     max-width: 150px;
     justify-content: center;
 }
 
-img {
-    width: 100px;
-}
-
-.img-text {
+.member-text {
     width: 150px;
     text-align: center; 
     color: #6a6f75;
 }
 
-.img-placeholder {
-    border: solid 4px #3882F6;
+.member {
     border-radius: 8px;
     width: 150px;
     height: 150px;
@@ -135,15 +126,16 @@ img {
     font-size: 36px;
     font-weight: 300;
     font-style: italic;
-    color: #1F2937;
+    color: #373644;
 }
 
 .author {
     font-weight: bold;
+    color: #373644;
 }
 
 .bottom {
-    background-color: #3882F6;
+    background-color: #ff7b00;
     padding: 30px 100px;
     margin: 100px 150px;
     border-radius: 8px;
@@ -151,23 +143,23 @@ img {
     align-items: center;
 }
 
-.sign-up.border {
-    border: 2px solid #F9FAF8;
+.donate.border {
+    border: 2px solid #ffffff;
 }
 
-.bottom .sign-up {
+.bottom .donate {
     flex: 1;
     max-width: 100px;
 }
 
-.sign-up-left {
+.donate-left {
     flex: 2;
 }
 
 .cta {
     font-weight: bold;
-    color: #F9FAF8;
-    font-size: 18px;
+    color: #ffffff;
+    font-size: 20px;
 }
 
 .cta-subtext {
@@ -175,7 +167,6 @@ img {
 }
 
 .footer {
-    display: flex;
     justify-content: center;
     align-items: center;
     padding: 30px 150px;
